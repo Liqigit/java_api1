@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class SelenideStart {
 
     static {
-        Configuration.timeout = 30000;
+        Configuration.timeout = 5000;
         Configuration.pageLoadTimeout = 30000;
         Configuration.browserSize = "1920x1080";
         Configuration.proxyEnabled = false;
